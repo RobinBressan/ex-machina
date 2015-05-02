@@ -1,15 +1,18 @@
 {
   "name": "ex-machina",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/RobinBressan/ex-machina",
   "description": "A minimalist state machine",
-  "scripts" : {
+  "scripts": {
     "test": "make test"
   },
   "main": "dist/ex-machina.min.js",
   "author": "Robin Bressan <robin@buddey.net>",
   "contributors": [
-      { "name": "Gildas Garcia", "email": "gildas.garcia@gmail.com" }
+    {
+      "name": "Gildas Garcia",
+      "email": "gildas.garcia@gmail.com"
+    }
   ],
   "license": "MIT",
   "devDependencies": {
