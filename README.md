@@ -41,7 +41,7 @@ var machine = exMachina({
 
 You must pass a config object to the state machine factory. It describes all available transitions. In the above example, when `state1` is ended, if the given callback for `state2` returns `true`, the `state2` will be activated. The payload is the value returned by the state which is `state1` here.
 
-*Note: Only one state can be activated at the same time*
+*Note: Only one state can be activated at the same time.*
 
 ### Add a state
 
