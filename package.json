@@ -1,0 +1,28 @@
+{
+  "name": "ex-machina",
+  "version": "0.1.0",
+  "repository": "https://github.com/RobinBressan/ex-machina",
+  "description": "A minimalist state machine",
+  "scripts" : {
+    "test": "make test"
+  },
+  "main": "dist/ex-machina.min.js",
+  "author": "Robin Bressan <robin@buddey.net>",
+  "contributors": [
+      { "name": "Gildas Garcia", "email": "gildas.garcia@gmail.com" }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.5.2",
+    "babel-core": "^4.6.6",
+    "babel-loader": "^4.0.0",
+    "karma": "0.12.31",
+    "karma-chrome-launcher": "0.1.3",
+    "karma-jasmine": "0.3.5",
+    "karma-phantomjs-launcher": "0.1.4",
+    "karma-spec-reporter": "0.0.16",
+    "object-assign": "^2.0.0",
+    "webpack": "^1.7.1",
+    "q": "^1.1.2"
+  }
+}
