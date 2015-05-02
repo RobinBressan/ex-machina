@@ -5,6 +5,8 @@ module.exports = function(config) {
         basePath: '../',
         browsers: [process.env.CI ? 'PhantomJS' : 'Chrome'],
         files: [
+            {pattern: 'test/bind.polyfill.js', included: true},
+            {pattern: 'test/assign.polyfill.js', included: true},
             {pattern: 'dist/ex-machina.js', included: true},
 
             // test files
