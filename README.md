@@ -1,4 +1,4 @@
-# ex-machina [![Build Status](https://travis-ci.org/robinbressan/ex-machina.svg?branch=master)](https://travis-ci.org/robinbressan/ex-machina)
+# ex-machina [![Build Status](https://travis-ci.org/RobinBressan/ex-machina.svg?branch=master)](https://travis-ci.org/RobinBressan/ex-machina)
 
 A minimalist state machine.
 
